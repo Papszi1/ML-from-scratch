@@ -25,9 +25,11 @@ def fit_linear_regression(X, y, lr=0.05, epoch=8):
     return weights, bias, loss_showcase
 
 
-#More optimal weight and bias gradient calculation is
-#dw = (1/n) * (X.T @ (y_pred - y))
-#db = (1/n) * np.sum(y_pred - y)
-#
-#weights -= lr * dw
-#bias -= lr * db
+# More optimal weight and bias gradient calculation is
+# But I was programming it based on the paper calculations I did
+
+# dw = (1/n) * (X.T @ (y_pred - y))
+# db = (1/n) * np.sum(y_pred - y)
+# 
+# weights -= lr * dw
+# bias -= lr * db
